@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background: #161A30;
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    background: #b0d7ff;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #240046;
+    border-radius: 10px;
+}
+input , select , button {
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 2px 4px 4px 3px rgba(88, 88, 88, 0.425);
+}
+input , select , option{
+    color: #240046;
+}
+input{
+    width: 70%;
+    height: 20px;
+    padding: 8px;
+}
+select{
+   width: 130px;
+   padding: 8px;
+    font-weight: bold;
+}
+i{
+    width: 30px;
+    color: #240046;
+}
+button{
+    padding: 10px 28px;
+    text-transform: uppercase;
+    background: #240046;
+    color: #fff;
+    font-size: 12px;
+}
+p{
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #1A1347;
+}
+#res{
+    margin: auto;
+    color: #240046;
+    font-size: 2.5rem;
+}
